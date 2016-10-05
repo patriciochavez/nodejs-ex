@@ -91,12 +91,6 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
-app.get('/webspeech', function (req, res) {
-    res.render('webspeech.html');    
-  }
-});
-
-
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);
