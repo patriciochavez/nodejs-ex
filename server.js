@@ -92,7 +92,7 @@ app.get('/pagecount', function (req, res) {
 });
 
 app.get('/webspeech', function (req, res) {
-    res.send('webspeech.html');    
+    res.render('webspeech.html');    
   }
 });
 
